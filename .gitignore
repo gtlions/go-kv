@@ -1,3 +1,15 @@
+.bra.env
+.env
+log/
+gAPI
+main
+*.exe
+.idea/
+.DS_Store
+.vscode/
+.notouch
+.DS_Store
+/vendor
 # Binaries for programs and plugins
 *.exe
 *.exe~
