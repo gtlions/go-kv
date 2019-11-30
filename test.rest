@@ -1,0 +1,16 @@
+### Ping Server
+GET http://127.0.0.1:8080/ping
+
+
+### Get Key
+GET http://127.0.0.1:8080?gtlions
+
+### Add/Update Key-Value
+POST http://127.0.0.1:8080
+Content-Type: application/json
+
+{"key":"gtlions",
+"value":"gtlions.l@qq.com"}
+
+### Delete Key
+DELETE http://127.0.0.1:8080?gtlions
